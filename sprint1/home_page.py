@@ -34,7 +34,7 @@ def home_page(cart,customer):
                     break
 
         elif choice == "C":
-            cart_page(cart)
+            cart_page(cart,customer)
 
         elif choice == "P":
             my_profile(customer)

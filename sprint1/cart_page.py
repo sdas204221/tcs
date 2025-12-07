@@ -1,7 +1,7 @@
 # cart_page.py
 from transaction_page import transaction_page
 
-def cart_page(cart):
+def cart_page(cart,customer):
     while True:
         print("\n========== CART PAGE ==========\n")
 
@@ -43,7 +43,7 @@ def cart_page(cart):
                     print("Invalid index!")
 
             elif choice == "O":
-                transaction_page(cart)
+                transaction_page(cart,customer)
 
             elif choice == "B":
                 return

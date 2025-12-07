@@ -1,4 +1,5 @@
 # main.py
+import random
 from customer import Customer
 from profile_page import my_profile
 from home_page import home_page
@@ -8,6 +9,7 @@ def start_app():
 
     # Mock registered user
     customer = Customer(
+        customer_id=random.randint(1000, 9999),
         name="Subhra",
         email="subhra@example.com",
         password="12345",

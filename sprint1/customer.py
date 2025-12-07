@@ -1,7 +1,8 @@
 # customer.py
 
 class Customer:
-    def __init__(self, name, email, password, address, contact):
+    def __init__(self,customer_id, name, email, password, address, contact):
+        self.customer_id=customer_id
         self.name = name
         self.email = email
         self.password = password

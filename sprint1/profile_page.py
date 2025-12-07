@@ -4,6 +4,7 @@ def my_profile(customer):
     while True:
         print("\n========== MY PROFILE ==========\n")
         print(f"Customer Name : {customer.name}")
+        print(f"Customer ID    : {customer.customer_id}")
         print(f"Email         : {customer.email}")
         # print(f"Password      : {customer.password}")
         print(f"Address       : {customer.address}")
