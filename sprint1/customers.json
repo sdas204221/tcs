@@ -1,0 +1,20 @@
+[
+    {
+        "customer_id": 7693,
+        "name": "Subhra Das",
+        "email": "sdas204221@gmail.com",
+        "password": "123",
+        "address": "tar",
+        "contact": "856",
+        "status": "Active"
+    },
+    {
+        "customer_id": 6581,
+        "name": "b",
+        "email": "k",
+        "password": "k",
+        "address": "k",
+        "contact": "k",
+        "status": "Active"
+    }
+]

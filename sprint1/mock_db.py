@@ -52,3 +52,13 @@ def get_all_products():
 
 def save_products(products):
     write_json(PRODUCT_FILE, products)
+
+# mock_db.py
+def login_customer(customer_id, password):
+    customers = read_json(CUSTOMER_FILE)
+    for c in customers:
+        if c["customer_id"] == customer_id and c["password"] == password:
+            from customer import Customer
+            return Customer(**c)
+    return None
+
