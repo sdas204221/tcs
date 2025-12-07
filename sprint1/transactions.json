@@ -64,5 +64,59 @@
         "gst": 406.5,
         "order_total": 8536.5,
         "total_items": 99
+    },
+    {
+        "transaction_id": 934476,
+        "customer_id": 7693,
+        "products": [
+            {
+                "id": 3,
+                "name": "Bread",
+                "qty": 10,
+                "price": 28
+            },
+            {
+                "id": 3,
+                "name": "Bread",
+                "qty": 5,
+                "price": 28
+            },
+            {
+                "id": 3,
+                "name": "Bread",
+                "qty": 40,
+                "price": 28
+            }
+        ],
+        "total_product_price": 1540,
+        "discount": 0,
+        "extra_charges": 25,
+        "gst": 77.0,
+        "order_total": 1642.0,
+        "total_items": 55
+    },
+    {
+        "transaction_id": 278252,
+        "customer_id": 7693,
+        "products": [
+            {
+                "id": 3,
+                "name": "Bread",
+                "qty": 10,
+                "price": 28
+            },
+            {
+                "id": 4,
+                "name": "Bread",
+                "qty": 12,
+                "price": 50
+            }
+        ],
+        "total_product_price": 880,
+        "discount": 0,
+        "extra_charges": 25,
+        "gst": 44.0,
+        "order_total": 949.0,
+        "total_items": 22
     }
 ]

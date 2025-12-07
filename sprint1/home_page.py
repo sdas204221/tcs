@@ -24,15 +24,27 @@ def home_page(cart, customer):
             try:
                 pid = int(input("Enter Product ID: "))
                 qty = int(input("Enter Quantity: "))
-                found = False
-                for p in products:
-                    if p["id"] == pid:
-                        cart.append({"product": p, "qty": qty})
-                        print("Added to cart!")
-                        found = True
-                        break
-                if not found:
+
+                # Find the product by id
+                product = next((p for p in products if p["id"] == pid), None)
+                if not product:
                     print("Invalid Product ID!")
+                    continue
+
+                # Check if product already in cart by id
+                cart_item = next((item for item in cart if item["id"] == pid), None)
+                if cart_item:
+                    cart_item["qty"] += qty
+                    print(f"Updated quantity of {product['name']} in cart to {cart_item['qty']}")
+                else:
+                    # Add to cart with hidden id tracking
+                    cart.append({
+                        "id": pid,           # internal use only
+                        "product": product,  # UI shows only name, price
+                        "qty": qty
+                    })
+                    print("Added to cart!")
+
             except ValueError:
                 print("Please enter valid numbers.")
 

@@ -9,7 +9,7 @@ def get_customers_by_domain(domain):
     """
     all_customers = read_json(CUSTOMER_FILE)
     # Filter only active customers
-    matched = [c for c in all_customers if c.get("status", "Active") == "Active" and c["email"].split("@")[-1].startswith(domain)]
+    matched = [c for c in all_customers if c["email"].split("@")[-1]==domain]
     return sorted(matched, key=lambda x: x["customer_id"])
 
 def main():

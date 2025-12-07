@@ -15,6 +15,60 @@
         "id": 3,
         "name": "Bread",
         "price": 28,
-        "available_qty": 50
+        "available_qty": 40
+    },
+    {
+        "id": 4,
+        "name": "Bread",
+        "price": 50,
+        "available_qty": 38
+    },
+    {
+        "name": "Orange Juice (1 L)",
+        "price": 123,
+        "available_qty": 67,
+        "id": 5
+    },
+    {
+        "name": "Orange Juice (1 L)",
+        "price": 138,
+        "available_qty": 0,
+        "id": 6
+    },
+    {
+        "name": "Cheese Block (200g)",
+        "price": 153,
+        "available_qty": 173,
+        "id": 7
+    },
+    {
+        "name": "Cheese Block (200g)",
+        "price": 149,
+        "available_qty": 185,
+        "id": 8
+    },
+    {
+        "name": "Tomato (500g)",
+        "price": 43,
+        "available_qty": 59,
+        "id": 9
+    },
+    {
+        "name": "Cheese Block (200g)",
+        "price": 151,
+        "available_qty": 36,
+        "id": 10
+    },
+    {
+        "name": "Chicken Breast (500g)",
+        "price": 230,
+        "available_qty": 5,
+        "id": 11
+    },
+    {
+        "name": "Sugar (1 kg)",
+        "price": 35,
+        "available_qty": 1,
+        "id": 12
     }
 ]

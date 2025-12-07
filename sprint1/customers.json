@@ -9,12 +9,363 @@
         "status": "Active"
     },
     {
-        "customer_id": 6581,
-        "name": "b",
-        "email": "k",
-        "password": "k",
-        "address": "k",
-        "contact": "k",
-        "status": "Active"
+        "name": "Deepa Patel",
+        "email": "deepa786patel@mymail.co",
+        "password": "clddug63",
+        "address": "House 28, MG Road, Delhi",
+        "contact": "7092073102",
+        "status": "Inactive",
+        "customer_id": 7694
+    },
+    {
+        "name": "Priya Das",
+        "email": "360das@mymail.co",
+        "password": "td2uhqaf",
+        "address": "Flat 25, Main St, Bangalore",
+        "contact": "7639584396",
+        "status": "Inactive",
+        "customer_id": 7695
+    },
+    {
+        "name": "Sandeep Das",
+        "email": "sandeep146das@workcorp.com",
+        "password": "la8xyxso",
+        "address": "House 75, Main St, Bangalore",
+        "contact": "8684297145",
+        "status": "Active",
+        "customer_id": 7696
+    },
+    {
+        "name": "Arjun Das",
+        "email": "dasdas266@gmail.com",
+        "password": "pbmk1h5j",
+        "address": "House 82, Park View, Kolkata",
+        "contact": "7762887313",
+        "status": "Active",
+        "customer_id": 7697
+    },
+    {
+        "name": "Neha Joshi",
+        "email": "838nehaneha@workcorp.com",
+        "password": "nwcsd4ww",
+        "address": "House 98, MG Road, Mumbai",
+        "contact": "7468682701",
+        "status": "Active",
+        "customer_id": 7698
+    },
+    {
+        "name": "Sandeep Malhotra",
+        "email": "malhotrasandeep18@yahoo.in",
+        "password": "1wc0kq92",
+        "address": "House 12, MG Road, Kolkata",
+        "contact": "7825537014",
+        "status": "Active",
+        "customer_id": 7699
+    },
+    {
+        "name": "Kavita Reddy",
+        "email": "reddy618618@outlook.com",
+        "password": "zqxfpu5a",
+        "address": "House 47, Cross Rd, Chennai",
+        "contact": "9689421527",
+        "status": "Active",
+        "customer_id": 7700
+    },
+    {
+        "name": "Arjun Malhotra",
+        "email": "58arjun@yahoo.in",
+        "password": "3apinyo0",
+        "address": "Flat 71, MG Road, Delhi",
+        "contact": "8781959268",
+        "status": "Active",
+        "customer_id": 7701
+    },
+    {
+        "name": "Neha Verma",
+        "email": "460460460@yahoo.in",
+        "password": "pt39yc2f",
+        "address": "Flat 70, Main St, Mumbai",
+        "contact": "8915856784",
+        "status": "Active",
+        "customer_id": 7702
+    },
+    {
+        "name": "Raj Chopra",
+        "email": "rajrajchopra@consulting.net",
+        "password": "n9lpfv58",
+        "address": "House 35, MG Road, Delhi",
+        "contact": "8951844670",
+        "status": "Inactive",
+        "customer_id": 7703
+    },
+    {
+        "name": "Arjun Singh",
+        "email": "arjun556556@mymail.co",
+        "password": "gm6mw0hd",
+        "address": "Flat 25, Temple St, Delhi",
+        "contact": "9533791604",
+        "status": "Active",
+        "customer_id": 7704
+    },
+    {
+        "name": "Vikram Patel",
+        "email": "885vikram885@workcorp.com",
+        "password": "xz3aa2pn",
+        "address": "House 28, Main St, Mumbai",
+        "contact": "9682284888",
+        "status": "Inactive",
+        "customer_id": 7705
+    },
+    {
+        "name": "Neha Reddy",
+        "email": "reddy726@gmail.com",
+        "password": "u3n4ujjv",
+        "address": "House 21, Park View, Delhi",
+        "contact": "8970691584",
+        "status": "Inactive",
+        "customer_id": 7706
+    },
+    {
+        "name": "Amit Joshi",
+        "email": "amitamit@outlook.com",
+        "password": "0rua56mu",
+        "address": "Flat 94, Temple St, Kolkata",
+        "contact": "8416307151",
+        "status": "Active",
+        "customer_id": 7707
+    },
+    {
+        "name": "Neha Singh",
+        "email": "57neha@yahoo.in",
+        "password": "lpf3b95q",
+        "address": "Flat 97, Cross Rd, Chennai",
+        "contact": "6357286064",
+        "status": "Active",
+        "customer_id": 7708
+    },
+    {
+        "name": "Amit Chopra",
+        "email": "chopra228@gmail.com",
+        "password": "9t7ujwcu",
+        "address": "Flat 93, Main St, Delhi",
+        "contact": "6162743195",
+        "status": "Active",
+        "customer_id": 7709
+    },
+    {
+        "name": "Neha Verma",
+        "email": "vermaverma@consulting.net",
+        "password": "kh5v0pqd",
+        "address": "House 58, Cross Rd, Kolkata",
+        "contact": "9527653130",
+        "status": "Inactive",
+        "customer_id": 7710
+    },
+    {
+        "name": "Raj Singh",
+        "email": "singhsinghraj@gmail.com",
+        "password": "pjrdhzv5",
+        "address": "House 36, Temple St, Bangalore",
+        "contact": "6794237052",
+        "status": "Inactive",
+        "customer_id": 7711
+    },
+    {
+        "name": "Kavita Sharma",
+        "email": "kavitasharma@gmail.com",
+        "password": "uo6q59ei",
+        "address": "House 99, Park View, Kolkata",
+        "contact": "9935890750",
+        "status": "Inactive",
+        "customer_id": 7712
+    },
+    {
+        "name": "Sandeep Chopra",
+        "email": "chopra593@consulting.net",
+        "password": "o2frpci8",
+        "address": "Flat 71, MG Road, Kolkata",
+        "contact": "7376456132",
+        "status": "Active",
+        "customer_id": 7713
+    },
+    {
+        "name": "Kavita Malhotra",
+        "email": "kavitamalhotrakavita@consulting.net",
+        "password": "ain3y3yl",
+        "address": "House 64, Main St, Chennai",
+        "contact": "6648634136",
+        "status": "Active",
+        "customer_id": 7714
+    },
+    {
+        "name": "Amit Goyal",
+        "email": "goyal836836@gmail.com",
+        "password": "da214t67",
+        "address": "House 20, MG Road, Bangalore",
+        "contact": "6677740952",
+        "status": "Active",
+        "customer_id": 7715
+    },
+    {
+        "name": "Priya Malhotra",
+        "email": "malhotramalhotra@mymail.co",
+        "password": "jrk0wjtg",
+        "address": "House 69, Park View, Kolkata",
+        "contact": "6811025160",
+        "status": "Inactive",
+        "customer_id": 7716
+    },
+    {
+        "name": "Sneha Reddy",
+        "email": "824reddy@yahoo.in",
+        "password": "lcvkc07r",
+        "address": "House 91, Main St, Kolkata",
+        "contact": "8347639553",
+        "status": "Active",
+        "customer_id": 7717
+    },
+    {
+        "name": "Sneha Sharma",
+        "email": "snehasharmasharma@mymail.co",
+        "password": "awr88e8y",
+        "address": "House 98, Main St, Kolkata",
+        "contact": "6749899138",
+        "status": "Inactive",
+        "customer_id": 7718
+    },
+    {
+        "name": "Deepa Chopra",
+        "email": "chopra3535@workcorp.com",
+        "password": "8uobuj82",
+        "address": "Flat 71, Cross Rd, Bangalore",
+        "contact": "8840974179",
+        "status": "Inactive",
+        "customer_id": 7719
+    },
+    {
+        "name": "Neha Verma",
+        "email": "nehaverma@gmail.com",
+        "password": "pj8wlzfm",
+        "address": "Flat 41, Temple St, Mumbai",
+        "contact": "9262292487",
+        "status": "Inactive",
+        "customer_id": 7720
+    },
+    {
+        "name": "Amit Singh",
+        "email": "amitamitamit@yahoo.in",
+        "password": "k1j91zge",
+        "address": "Flat 33, Cross Rd, Bangalore",
+        "contact": "7133392767",
+        "status": "Active",
+        "customer_id": 7721
+    },
+    {
+        "name": "Arjun Patel",
+        "email": "patelpatel@gmail.com",
+        "password": "wrly8z43",
+        "address": "Flat 53, Cross Rd, Bangalore",
+        "contact": "8136380164",
+        "status": "Inactive",
+        "customer_id": 7722
+    },
+    {
+        "name": "Deepa Verma",
+        "email": "vermaverma@consulting.net",
+        "password": "la2l0rfr",
+        "address": "House 44, Temple St, Kolkata",
+        "contact": "6530501434",
+        "status": "Active",
+        "customer_id": 7723
+    },
+    {
+        "name": "Raj Malhotra",
+        "email": "361malhotra361@gmail.com",
+        "password": "omv4vix4",
+        "address": "House 44, Cross Rd, Chennai",
+        "contact": "7722776229",
+        "status": "Active",
+        "customer_id": 7724
+    },
+    {
+        "name": "Vikram Malhotra",
+        "email": "malhotra404@yahoo.in",
+        "password": "u9r227e3",
+        "address": "House 86, Main St, Mumbai",
+        "contact": "9417468411",
+        "status": "Inactive",
+        "customer_id": 7725
+    },
+    {
+        "name": "Deepa Goyal",
+        "email": "goyalgoyalgoyal@outlook.com",
+        "password": "dtp35mmm",
+        "address": "Flat 99, Main St, Chennai",
+        "contact": "8906628208",
+        "status": "Inactive",
+        "customer_id": 7726
+    },
+    {
+        "name": "Kavita Chopra",
+        "email": "kavita319@workcorp.com",
+        "password": "vdo8hnjk",
+        "address": "House 15, Park View, Mumbai",
+        "contact": "9694196845",
+        "status": "Active",
+        "customer_id": 7727
+    },
+    {
+        "name": "Sandeep Goyal",
+        "email": "goyalgoyalsandeep@workcorp.com",
+        "password": "1dlf6okl",
+        "address": "House 88, Park View, Chennai",
+        "contact": "6395989492",
+        "status": "Inactive",
+        "customer_id": 7728
+    },
+    {
+        "name": "Sneha Goyal",
+        "email": "goyalsnehagoyal@outlook.com",
+        "password": "eqsje2vv",
+        "address": "House 17, Park View, Mumbai",
+        "contact": "6277545296",
+        "status": "Inactive",
+        "customer_id": 7729
+    },
+    {
+        "name": "Deepa Singh",
+        "email": "deepa695deepa@mymail.co",
+        "password": "ostdh8oh",
+        "address": "Flat 28, Temple St, Kolkata",
+        "contact": "6643614640",
+        "status": "Active",
+        "customer_id": 7730
+    },
+    {
+        "name": "Sneha Goyal",
+        "email": "653goyal@yahoo.in",
+        "password": "bnnijmut",
+        "address": "Flat 87, Temple St, Mumbai",
+        "contact": "6946430638",
+        "status": "Inactive",
+        "customer_id": 7731
+    },
+    {
+        "name": "Priya Sharma",
+        "email": "175priya@consulting.net",
+        "password": "uap2a1h6",
+        "address": "Flat 97, Park View, Bangalore",
+        "contact": "7720805926",
+        "status": "Inactive",
+        "customer_id": 7732
+    },
+    {
+        "name": "Neha Reddy",
+        "email": "646neha646@workcorp.com",
+        "password": "14aucpa6",
+        "address": "Flat 48, Cross Rd, Mumbai",
+        "contact": "8405308044",
+        "status": "Inactive",
+        "customer_id": 7733
     }
 ]
