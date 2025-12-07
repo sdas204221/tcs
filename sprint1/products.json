@@ -2,16 +2,19 @@
     {
         "id": 1,
         "name": "Apple (1 kg)",
-        "price": 120
+        "price": 120,
+        "available_qty": 1
     },
     {
         "id": 2,
         "name": "Milk (1 L)",
-        "price": 45
+        "price": 45,
+        "available_qty": 0
     },
     {
         "id": 3,
         "name": "Bread",
-        "price": 28
+        "price": 28,
+        "available_qty": 50
     }
 ]

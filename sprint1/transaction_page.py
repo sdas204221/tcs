@@ -1,6 +1,7 @@
 import random
 from generate_invoice import generate_invoice
 from mock_db import save_transaction
+from mock_db import reduce_product_quantity
 
 def transaction_page(cart, customer):
     if len(cart) == 0:
@@ -51,10 +52,18 @@ def transaction_page(cart, customer):
             try: extra_charges = float(input("Enter new extra charges: "))
             except: print("Invalid input!")
         elif choice == "P":
+            if not reduce_product_quantity(cart):
+                print("\nTransaction Failed! Not enough quantity for some product(s).")
+                return  # Back to transaction page or cart
+
             transaction = {
                 "transaction_id": random.randint(100000,999999),
                 "customer_id": customer.customer_id,
-                "products": [{"id": item["product"]["id"], "name": item["product"]["name"], "qty": item["qty"], "price": item["product"]["price"]} for item in cart],
+                "products": [{"id": item["product"]["id"],
+                            "name": item["product"]["name"],
+                            "qty": item["qty"],
+                            "price": item["product"]["price"]} 
+                            for item in cart],
                 "total_product_price": total_product_price,
                 "discount": discount,
                 "extra_charges": extra_charges,
@@ -66,6 +75,7 @@ def transaction_page(cart, customer):
             generate_invoice(transaction)
             cart.clear()
             return
+
         elif choice == "B":
             return
         else:

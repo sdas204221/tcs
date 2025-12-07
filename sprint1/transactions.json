@@ -22,5 +22,47 @@
         "gst": 161.25,
         "order_total": 3300.25,
         "total_items": 55
+    },
+    {
+        "transaction_id": 633254,
+        "customer_id": 7693,
+        "products": [
+            {
+                "id": 1,
+                "name": "Apple (1 kg)",
+                "qty": 15,
+                "price": 120
+            }
+        ],
+        "total_product_price": 1800,
+        "discount": 0,
+        "extra_charges": 25,
+        "gst": 90.0,
+        "order_total": 1915.0,
+        "total_items": 15
+    },
+    {
+        "transaction_id": 815412,
+        "customer_id": 7693,
+        "products": [
+            {
+                "id": 1,
+                "name": "Apple (1 kg)",
+                "qty": 49,
+                "price": 120
+            },
+            {
+                "id": 2,
+                "name": "Milk (1 L)",
+                "qty": 50,
+                "price": 45
+            }
+        ],
+        "total_product_price": 8130,
+        "discount": 0,
+        "extra_charges": 0.0,
+        "gst": 406.5,
+        "order_total": 8536.5,
+        "total_items": 99
     }
 ]

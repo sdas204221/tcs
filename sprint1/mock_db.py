@@ -61,4 +61,36 @@ def login_customer(customer_id, password):
             from customer import Customer
             return Customer(**c)
     return None
+# mock_db.py
+
+def reduce_product_quantity(cart):
+    """
+    Reduce available_qty of products according to cart.
+    Returns True if successful, False if any product is insufficient.
+    """
+    products = read_json(PRODUCT_FILE)
+    # Map for quick lookup
+    prod_map = {p["id"]: p for p in products}
+
+    # Check availability
+    for item in cart:
+        pid = item["product"]["id"]
+        qty = item["qty"]
+        if pid not in prod_map:
+            print(f"Product ID {pid} not found in DB!")
+            return False
+        if prod_map[pid]["available_qty"] < qty:
+            print(f"Insufficient quantity for {prod_map[pid]['name']}!")
+            return False
+
+    # Reduce quantities
+    for item in cart:
+        pid = item["product"]["id"]
+        qty = item["qty"]
+        prod_map[pid]["available_qty"] -= qty
+
+    # Save back
+    write_json(PRODUCT_FILE, list(prod_map.values()))
+    return True
+
 
