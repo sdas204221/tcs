@@ -1,0 +1,26 @@
+[
+    {
+        "transaction_id": 780619,
+        "customer_id": 4898,
+        "products": [
+            {
+                "id": 2,
+                "name": "Milk (1 L)",
+                "qty": 45,
+                "price": 45
+            },
+            {
+                "id": 1,
+                "name": "Apple (1 kg)",
+                "qty": 10,
+                "price": 120
+            }
+        ],
+        "total_product_price": 3225,
+        "discount": 90.0,
+        "extra_charges": 4.0,
+        "gst": 161.25,
+        "order_total": 3300.25,
+        "total_items": 55
+    }
+]

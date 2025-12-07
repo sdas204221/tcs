@@ -1,18 +1,15 @@
 # home_page.py
 from cart_page import cart_page
 from profile_page import my_profile
+from mock_db import get_all_products
 
-PRODUCTS = [
-    {"id": 1, "name": "Apple (1 kg)", "price": 120},
-    {"id": 2, "name": "Milk (1 L)", "price": 45},
-    {"id": 3, "name": "Bread", "price": 28},
-]
+def home_page(cart, customer):
+    products = get_all_products()
 
-def home_page(cart,customer):
     while True:
         print("\n========== HOME PAGE ==========\n")
         print("Available Products:")
-        for p in PRODUCTS:
+        for p in products:
             print(f"{p['id']}. {p['name']} - ₹{p['price']}")
 
         print("\nOptions:")
@@ -24,17 +21,23 @@ def home_page(cart,customer):
         choice = input("\nEnter option: ").upper()
 
         if choice == "A":
-            pid = int(input("Enter Product ID: "))
-            qty = int(input("Enter Quantity: "))
-
-            for p in PRODUCTS:
-                if p["id"] == pid:
-                    cart.append({"product": p, "qty": qty})
-                    print("Added to cart!")
-                    break
+            try:
+                pid = int(input("Enter Product ID: "))
+                qty = int(input("Enter Quantity: "))
+                found = False
+                for p in products:
+                    if p["id"] == pid:
+                        cart.append({"product": p, "qty": qty})
+                        print("Added to cart!")
+                        found = True
+                        break
+                if not found:
+                    print("Invalid Product ID!")
+            except ValueError:
+                print("Please enter valid numbers.")
 
         elif choice == "C":
-            cart_page(cart,customer)
+            cart_page(cart, customer)
 
         elif choice == "P":
             my_profile(customer)

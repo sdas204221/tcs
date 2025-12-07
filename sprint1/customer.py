@@ -1,8 +1,9 @@
 # customer.py
+from mock_db import save_customer
 
 class Customer:
-    def __init__(self,customer_id, name, email, password, address, contact):
-        self.customer_id=customer_id
+    def __init__(self, customer_id, name, email, password, address, contact):
+        self.customer_id = customer_id
         self.name = name
         self.email = email
         self.password = password
@@ -10,5 +11,6 @@ class Customer:
         self.contact = contact
 
     def save(self):
-        # Mock save, later can connect to DB
-        print("\n[INFO] Customer details saved successfully!\n")
+        # Save to mock JSON DB
+        save_customer(self)
+        print("\n[INFO] Customer saved to mock DB!")

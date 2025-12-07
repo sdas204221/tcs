@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Apple (1 kg)",
+        "price": 120
+    },
+    {
+        "id": 2,
+        "name": "Milk (1 L)",
+        "price": 45
+    },
+    {
+        "id": 3,
+        "name": "Bread",
+        "price": 28
+    }
+]
