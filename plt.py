@@ -1,13 +1,3 @@
-
-www.pdfcup.com
-Data Visualization with Matplotlib Fresco Play Hands on Solution HackerRank
-D Shwari
-27 - 35 minutes
-
-Learn Data Visualization with Matplotlib Fresco Play HandsOn covers Line plot, Scatter and Bar plot, Pie Plot, Histograms and Box Plots, Subplots.
-
-Data Visualization with Matplotlib Fresco Play Hands on Solution HackerRank - www.pdfcup.com
-Data Visualization with Matplotlib Fresco Play Hands on:-
 LAB 1: Matplotlib-1 My First Plot.
 
 Solution 1: Matplotlib-1 My First Plot.
